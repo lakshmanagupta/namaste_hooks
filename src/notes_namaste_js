@@ -1,0 +1,23 @@
+Evrything in javascript happens in execution context
+Memory component is also called variable environment
+javascrpt is a "Synchronous single threaded language"
+
+In the hoisting the below will happen when we try to access
+
+let - referrence error - variable is not defined
+const - referrence error - variable is not defined
+var - undefined because already as part of memory phase it is allocated with value undefined
+
+let,cont - arrow function -  referrence error - variable is not defined
+var - arrow function - since var values will be stored as variables in memory so stored as undefined but if you try accessing it as x() then it will throw error as not a function
+
+
+in Javascript, there are 2 phases
+
+1. Memory allocation phases
+2. Execution phase
+
+First step done by JS is to allocate ll the memory needed for all the variables and the functions
+
+For a variables declared using var then in memory it is stored as "undefined"
+For the functions declared using function keyword then it is stored as function definition fully

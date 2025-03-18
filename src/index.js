@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { Outlet, RouterProvider, createBrowserRouter } from 'react-router-dom';
 import UseMemoComp from './UseMemoComp';
 import UseRefComp from './UseRefComp'
+import UseHoisting from './useHoisting';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -20,6 +21,7 @@ const routerConfig = createBrowserRouter([{
   children: [
     { path: "/useMemo", element: <UseMemoComp /> },
     { path: "/useRef", element: <UseRefComp /> },
+    { path: "/useHoisting", element: <UseHoisting /> },
   ]
 }])
 root.render(<RouterProvider router={routerConfig} />);
