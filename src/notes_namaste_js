@@ -21,3 +21,14 @@ First step done by JS is to allocate ll the memory needed for all the variables 
 
 For a variables declared using var then in memory it is stored as "undefined"
 For the functions declared using function keyword then it is stored as function definition fully
+
+
+-----------------------------------------
+this === window will be true at gobal level.
+Whenever we create a execution context a this is created along with it.
+Even it is created at a function execution context as well.
+shortest program in js in just empty file
+Global scope is anything outside any function
+Javascript is a loosely/weakly typed language, meaning it doesnot attach the variables to only one specific data type
+Example I define a as number for now and later on I can change value to boolean
+We should never manually assign undefined to any variable
